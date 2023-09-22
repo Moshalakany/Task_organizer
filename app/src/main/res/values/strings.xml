@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Task_organizer</string>
+    <string name="title_activity_contact_with_me">ContactWithMe</string>
+    <string name="title_activity_contact">contact</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

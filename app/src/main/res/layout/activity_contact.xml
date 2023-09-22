@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact">
+
+    <ImageButton
+        android:id="@+id/facebook_button"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="#FFFFFF"
+        android:contentDescription="TODO"
+        android:src="@drawable/fb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        tools:src="@drawable/fb" />
+
+    <ImageButton
+        android:id="@+id/github_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/git"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        tools:src="@drawable/git"
+        android:contentDescription="TODO" />
+
+    <ImageButton
+        android:id="@+id/gmail_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/gmail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.818"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        tools:src="@drawable/gmail"
+        android:contentDescription="TODO" />
+</androidx.constraintlayout.widget.ConstraintLayout>
